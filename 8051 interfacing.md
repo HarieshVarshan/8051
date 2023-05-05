@@ -1,0 +1,7 @@
+- interfacing LCD with 8051
+- interfacing LEDs with 8051
+- interfacing matrix keyboard with 8051
+- interfacing ADC with 8051
+- interfacing DAC with 8051
+- interfacing stepper motor with 8051
+- interfacing DC motor with 8051

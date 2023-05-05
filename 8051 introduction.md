@@ -1,0 +1,54 @@
+## basic elements in a microcontroller
+---
+- **the CPU or the processor**
+	- the main purpose of a processor is to execute programs.
+- **the memory** - any type of controller will have the below basic type of memory
+	- **ROM (Read Only Memory) or Program Memory or Code Memory**
+		- retains information even when the power is off.
+		- to store the permanent things like executable program etc.
+	- **RAM (Random Access Memory) or Data Memory**
+		- needs power to hold the information.
+		- to store data during runtime for faster access.
+- **the bus**
+	- buses connects the CPU, memory and other peripherals together.
+	- types of buses,
+		- **address bus:** it gives address to a select location.
+		- **data bus:** transfers data between processor and the memory location. 
+		- **control bus:** indicates if it is a read or write operation
+- **IO ports** - to connect devices like keyboard, mouse, printer etc.
+	- we don't connect keyboard directly to processor's buses instead we connect it to an input port, likewise we connect monitor to a output port.
+- **timers** - to produce a delay or time gap between two events
+	- **hardware delay:** 
+		- the delay is produced by the timer. (the processor can do some other better things.)
+		- the processor requests the timer to create a defined delay, once the delay is over it informs the processor back. 
+		- fyi, like processor the timer hardware also needs a clock to trigger the count/delay. the clock connected can either be external or can share the frequency of main clock of the processor.
+		- it is more expensive, consumes more power, more complex as we need to connect the timer to data, address and control buses.
+	- **software delay:** 
+		- the delay is produced by the processor itself.
+		- using loops (for loop, while etc.) say 1 iteration takes 100ms, 100 iterations will run for 10s.
+		- blocks the processor from doing other essential tasks during delay.
+
+## **example of microcontroller application: (microwave oven)**
+---
+- to store the programs of microwave, we need **ROM**
+- to store the temporary data from the user like temperature, time/seconds and other settings etc., we need **RAM**. Every time we turn on for cooking the next day, yesterday's temperature is not essential to be stored.
+- to get the inputs from the buttons (start, stop, timer etc.), to on the lights when the oven door is opened and for the oven display etc., we need the **IO ports**.
+- to cook for a particular amount of time and to turn off after that, we need **timers** so that the **processor** can involving in other essential tasks like rotation of motors, maintaining the temperature by turning on/off the heater etc. 
+
+## 8051 microcontroller features
+---
+- $40 \space pin$ integrated chip - dual inline package
+- $8 \space bit$ processor
+- $8 \space bit$ data bus
+- $16 \space bit$ address bus
+- $8 \space bit$ ALU
+- $4 \space kilobytes$ of ROM
+- $128 \space bytes$ of RAM
+- external memory (RAM/ROM) expandable up to $64 \space kilobytes$
+- it has four $8 \space bits$ bidirectional IO ports. they are bit addressable.
+- has two $16 \space bit$ timers i.e. can create 2 different delays simultaneously.
+- has 6 interrupts
+- has a serial port - $rxd$ (receive data), $txd$ (transmit data)
+- power saving modes - idle and power down
+- $12 \space MHz$ operating frequency
+- $5V$ power supply 

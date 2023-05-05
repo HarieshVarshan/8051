@@ -1,0 +1,17 @@
+- [[8051 introduction]]
+- [[8051 pin diagram]]
+- [[8051 architecture]]
+- 8051 registers
+- 8051 memory organization
+- 8051 addressing modes
+- instruction set architecture
+- 8051 timer
+- 8051 serial communication
+- 8051 interrupts
+- 8051 power saving modes
+- 8051 io ports
+- 8051 memory designing
+- 8051 embedded c programming
+	- [[8051 data types]]
+	- [[8051 interfacing]]
+
