@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9da1914be7c6db2a",
+        "id": "756ed52a1425ba8b",
         "type": "tabs",
         "children": [
           {
-            "id": "35473a8ff36215eb",
+            "id": "ba2b0f5b80f898a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8051 data types.md",
+                "file": "8051 architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8051 data types.md",
+                "file": "8051 architecture.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8051 data types.md",
+                "file": "8051 architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8051 data types.md"
+                "file": "8051 architecture.md"
               }
             }
           },
@@ -173,22 +173,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35473a8ff36215eb",
+  "active": "ba2b0f5b80f898a3",
   "lastOpenFiles": [
-    "8051 architecture.md",
-    "8051 registers.md",
-    "master file.md",
-    "8051 introduction.md",
-    "8051 pin diagram.md",
-    "8051 data types.md",
-    "8051 interfacing.md",
     "resources/Pasted image 20230505010406.png",
+    "resources/Pasted image 20230505190702.png",
     "resources/Pasted image 20230504232800.png",
     "resources/Pasted image 20230504204414.png",
     "resources/Pasted image 20230504000454.png",
     "resources/Pasted image 20230503232531.png",
-    "23) 8051  Interfacing 4 digit 7 segment Multiplexed LED Display.mp4",
     "resources/Pasted image 20230503214919.png",
+    "8051 architecture.md",
+    "8051 data types.md",
+    "8051 registers.md",
+    "master file.md",
+    "8051 introduction.md",
+    "8051 pin diagram.md",
+    "8051 interfacing.md",
+    "23) 8051  Interfacing 4 digit 7 segment Multiplexed LED Display.mp4",
     "Pasted image 20230503212641.png.md",
     "resources",
     "Pasted image 20230503212626.png",
