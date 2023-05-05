@@ -11,8 +11,12 @@
             "id": "35473a8ff36215eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "8051 data types.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "8051 data types.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "8051 data types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "8051 data types.md"
+              }
             }
           },
           {
@@ -167,11 +175,11 @@
   },
   "active": "35473a8ff36215eb",
   "lastOpenFiles": [
+    "8051 architecture.md",
     "8051 registers.md",
     "master file.md",
     "8051 introduction.md",
     "8051 pin diagram.md",
-    "8051 architecture.md",
     "8051 data types.md",
     "8051 interfacing.md",
     "resources/Pasted image 20230505010406.png",
