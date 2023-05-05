@@ -1,7 +1,7 @@
 - [[8051 introduction]]
 - [[8051 pin diagram]]
 - [[8051 architecture]]
-- 8051 registers
+- [[8051 registers]]
 - 8051 memory organization
 - 8051 addressing modes
 - instruction set architecture
