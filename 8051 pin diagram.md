@@ -17,7 +17,7 @@
 - $Reset \ pin$ 
 	- this signal resets the whole system.
 	- on reset, the whole power supply is withdrawn and given back.
-	- RAM will lose all its information. (data)
+	- RAM will lose all its information (data) and the default values will be loaded by the processor.
 	- ROM information will be retained. (code/program)
 	- on reset, the processor executes a program called BIOS/monitor program which is used to initialize everything in the system.
 
@@ -102,7 +102,13 @@
 **sequence**
 1. the processor will initially give the **address** 4000h ($A_8 - A_{15} = 40h\ (P_2), A_0 - A_7 = 00h\ (P_0)$ ) and the $ALE = 1$. 
 2. but 4000h is present in both external RAM as well as external ROM so the processor will give $\bar{RD}=0$ **control signal** to select the external RAM.
-4. the $ALE = 0$ and the processor will then read the value 25 in 4000h from the **data bus** $(D_0 - D_7) = 25\ (P_0)$ 
+3. the $ALE = 0$ and the processor will then read the value 25 in 4000h from the **data bus** $(D_0 - D_7) = 25\ (P_0)$ 
 
 **alternately, if the processor wants to read the value at address 4000h in external ROM then step 2 would be,**
 2. the processor will give $\bar{PSEN} = 0$ **control signal** to select external ROM.
+
+
+#queries_8051_pin_diagram 
+## queries
+---
+- [ ] how does the 8051 $\mu C$ know whether an external ROM or RAM is connected to it by the programmer? are there any special registers the programmer needs to set in order to inform the processor?

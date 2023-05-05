@@ -3,7 +3,7 @@
   "livePreview": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "resources",
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "strictLineBreaks": true,
   "showLineNumber": true,
   "spellcheck": true
