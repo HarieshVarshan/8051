@@ -35,8 +35,8 @@
 			- **mix of both:** the address of external ROM will continue from where the address of internal ROM ends. 
 				- i.e. $4kB + 32kB = 0h-FFFh \ and \ 1000h-8FFFh$ $(\bar{EA} = 1)$
 			- **only external ROM:** lets say the 32kB address space will be $0h - 7FFFh$ $(\bar{EA} = 0)$
-	- **we can connect either external RAM $(upto \ 64kB)$ or external ROM $(upto \ 64kB)$ or even both at the same time! (made possible coz of control pins, $\bar{PSEN}$ for external ROM and $\bar{WR}\ and \ \bar{RD}$ for external RAM)**
-	- external RAM and external ROM shall be connected to $Port0$ and $Port2$
+	- **we can connect either external RAM $(upto \ 64kB)$ or external ROM $(upto \ 64kB)$ or even both at the same time! (made possible coz of separate control pins for ROM and RAM, $\bar{PSEN}$ for external ROM and $\bar{WR}\ and \ \bar{RD}$ for external RAM)**
+	- external memory shall be connected to $Port0$ and $Port2$
 	- if we want more data memory we can connect external RAM
 		- internal RAM and external RAM are both operated separately and do not interfere with each other unlike ROM.
 		- internal RAM is always used irrespective of the external RAM.
@@ -101,7 +101,7 @@
 ![[Pasted image 20230505010406.png | 500]]
 **sequence**
 1. the processor will initially give the **address** 4000h ($A_8 - A_{15} = 40h\ (P_2), A_0 - A_7 = 00h\ (P_0)$ ) and the $ALE = 1$. 
-2. but 4000h is present in both external RAM as well as external ROM so the processor will give $\bar{RD}=0$ **control signal** to select the external RAM.
+2. but (say) 4000h is present in both external RAM as well as external ROM so the processor will give $\bar{RD}=0$ **control signal** to select the external RAM.
 3. the $ALE = 0$ and the processor will then read the value 25 in 4000h from the **data bus** $(D_0 - D_7) = 25\ (P_0)$ 
 
 **alternately, if the processor wants to read the value at address 4000h in external ROM then step 2 would be,**
