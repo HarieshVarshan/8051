@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8051 architecture.md",
+                "file": "8051 introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8051 architecture.md",
+                "file": "8051 introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8051 architecture.md",
+                "file": "8051 introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8051 architecture.md"
+                "file": "8051 introduction.md"
               }
             }
           },
@@ -175,6 +175,8 @@
   },
   "active": "ba2b0f5b80f898a3",
   "lastOpenFiles": [
+    "master file.md",
+    "8051 architecture.md",
     "resources/Pasted image 20230505010406.png",
     "resources/Pasted image 20230505190702.png",
     "resources/Pasted image 20230504232800.png",
@@ -182,10 +184,8 @@
     "resources/Pasted image 20230504000454.png",
     "resources/Pasted image 20230503232531.png",
     "resources/Pasted image 20230503214919.png",
-    "8051 architecture.md",
     "8051 data types.md",
     "8051 registers.md",
-    "master file.md",
     "8051 introduction.md",
     "8051 pin diagram.md",
     "8051 interfacing.md",
