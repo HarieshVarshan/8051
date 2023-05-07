@@ -14,12 +14,12 @@
 	- types of buses,
 		- **address bus:** it gives address to a select location.
 		- **data bus:** transfers data between processor and the memory location. 
-		- **control bus:** indicates if it is a read or write operation
+		- **control bus:** indicates if it is a read or write operation etc.
 - **IO ports** - to connect devices like keyboard, mouse, printer etc.
 	- we don't connect keyboard directly to processor's buses instead we connect it to an input port, likewise we connect monitor to a output port.
 - **timers** - to produce a delay or time gap between two events
 	- **hardware delay:** 
-		- the delay is produced by the timer. (the processor can do some other better things.)
+		- the delay is produced by the timer. (so that the processor can do some other better things.)
 		- the processor requests the timer to create a defined delay, once the delay is over it informs the processor back. 
 		- fyi, like processor the timer hardware also needs a clock to trigger the count/delay. the clock connected can either be external or can share the frequency of main clock of the processor.
 		- it is more expensive, consumes more power, more complex as we need to connect the timer to data, address and control buses.
@@ -32,8 +32,8 @@
 ---
 - to store the programs of microwave, we need **ROM**
 - to store the temporary data from the user like temperature, time/seconds and other settings etc., we need **RAM**. Every time we turn on for cooking the next day, yesterday's temperature is not essential to be stored.
-- to get the inputs from the buttons (start, stop, timer etc.), to on the lights when the oven door is opened and for the oven display etc., we need the **IO ports**.
-- to cook for a particular amount of time and to turn off after that, we need **timers** so that the **processor** can involving in other essential tasks like rotation of motors, maintaining the temperature by turning on/off the heater etc. 
+- to get the inputs from the buttons (start, stop, timer etc.), to turn on the lights when the oven door is opened and for the oven display etc., we need the **IO ports**.
+- to cook for a particular amount of time and to turn off after that, we need **timers** so that the **processor** can involve in other essential tasks like rotation of motors, maintaining the temperature by turning on/off the heater etc. 
 
 ## 8051 microcontroller features
 ---

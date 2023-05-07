@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8051 introduction.md",
+                "file": "8051 pin diagram.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8051 introduction.md",
+                "file": "8051 pin diagram.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8051 introduction.md",
+                "file": "8051 pin diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8051 introduction.md"
+                "file": "8051 pin diagram.md"
               }
             }
           },
@@ -176,6 +176,7 @@
   "active": "ba2b0f5b80f898a3",
   "lastOpenFiles": [
     "master file.md",
+    "8051 introduction.md",
     "8051 architecture.md",
     "resources/Pasted image 20230505010406.png",
     "resources/Pasted image 20230505190702.png",
@@ -186,7 +187,6 @@
     "resources/Pasted image 20230503214919.png",
     "8051 data types.md",
     "8051 registers.md",
-    "8051 introduction.md",
     "8051 pin diagram.md",
     "8051 interfacing.md",
     "23) 8051  Interfacing 4 digit 7 segment Multiplexed LED Display.mp4",
