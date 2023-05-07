@@ -22,11 +22,11 @@
 	- on reset, the processor executes a program called BIOS/monitor program which is used to initialize everything in the system.
 
 - $ALE \ pin$ address latch enable
-	- 8051 has 16 bit address bus $(A_0 - A_{15}) => (A_0 - A_7) \ Port_2 \ and \ (A_8 - A_{15}) \ Port_0$
+	- 8051 has 16 bit address bus $(A_0 - A_{15}) => (A_0 - A_7) \ Port_0 \ and \ (A_8 - A_{15}) \ Port_2$
 		- the $(A_0 - A_7)$ are multiplexed and can carry either address or data $(AD_0 - AD_7)$.
 	- so $Port_0$ is multiplexed to carry both address and data. 
-		- to indicate that $(A_8 - A_{15})$ carries address, the 8051$\mu C$  will set $ALE = 1$
-		- to indicate that $(A_8 - A_{15})$ carries data, the 8051$\mu C$ will clear $ALE = 0$
+		- to indicate that $(A_0 - A_7)$ carries address, the 8051$\mu C$  will set $ALE = 1$
+		- to indicate that $(A_0 - A_7)$ carries data, the 8051$\mu C$ will clear $ALE = 0$
 
 - $\bar{EA} \ pin$ external access of ROM
 	- if we want more program memory we can connect external ROM
