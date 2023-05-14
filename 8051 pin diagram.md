@@ -76,7 +76,7 @@
 
 - $\bar{EA} \ pin$ external access of ROM
 	- if we want more program memory we can connect external ROM
-		- unlike RAM, the programmer can use only internal ROM, only external ROM or a mix of both,
+		- unlike RAM, the programmer is allowed to use only internal ROM, only external ROM or a mix of both,
 			- **only internal ROM:** lets say the 4kB address space will be $0h - FFFh$ $(\bar{EA} = 1)$
 			- **mix of both:** the address of external ROM will continue from where the address of internal ROM ends. 
 				- i.e. $4kB + 32kB = 0h-FFFh \ and \ 1000h-8FFFh$ $(\bar{EA} = 1)$
