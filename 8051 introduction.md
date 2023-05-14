@@ -44,7 +44,7 @@
 - $8 \space bit$ ALU
 - $4 \space kilobytes$ of ROM
 - $128 \space bytes$ of RAM
-- external memory (RAM/ROM) expandable up to $64 \space kilobytes$
+- external memory (RAM,ROM) expandable up to $64 \space kilobytes$
 - it has four $8 \space bits$ bidirectional IO ports. they are bit addressable.
 - has two $16 \space bit$ timers i.e. can create 2 different delays simultaneously.
 - has 6 interrupts
