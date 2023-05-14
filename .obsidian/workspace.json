@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8051 pin diagram.md",
+                "file": "8051 architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8051 pin diagram.md",
+                "file": "8051 architecture.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8051 pin diagram.md",
+                "file": "8051 architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8051 pin diagram.md"
+                "file": "8051 architecture.md"
               }
             }
           },
@@ -188,13 +188,15 @@
   },
   "active": "5c6089fa0aa2fb39",
   "lastOpenFiles": [
+    "resources/Pasted image 20230514151255.png",
+    "resources/Pasted image 20230514151249.png",
+    "8051 pin diagram.md",
     "master file.md",
     "8051 introduction.md",
     "8051 architecture.md",
     "resources/Pasted image 20230507201034.png",
     "resources/Pasted image 20230505190702.png",
     "resources/Pasted image 20230507164323.png",
-    "8051 pin diagram.md",
     "resources/Pasted image 20230505010406.png",
     "resources/Pasted image 20230504232800.png",
     "resources/Pasted image 20230504204414.png",
@@ -207,7 +209,6 @@
     "23) 8051  Interfacing 4 digit 7 segment Multiplexed LED Display.mp4",
     "Pasted image 20230503212641.png.md",
     "resources",
-    "Pasted image 20230503212626.png",
     "c programming/callbacks in c.md",
     "c programming/function pointers.md",
     "dsa and cp/master for interview prep.md",
