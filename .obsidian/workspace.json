@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3d5c2726d9109a43",
+        "id": "0c5f47dd1631765f",
         "type": "tabs",
         "children": [
           {
-            "id": "b02f402f1528005d",
+            "id": "ac218c04ce9266be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "master file.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c6089fa0aa2fb39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "8051 architecture.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8051 architecture.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8051 architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "8051 architecture.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,13 +165,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5c6089fa0aa2fb39",
+  "active": "ac218c04ce9266be",
   "lastOpenFiles": [
-    "resources/Pasted image 20230514151249.png",
+    "master file.md",
     "8051 architecture.md",
+    "resources/Pasted image 20230514151249.png",
     "resources/Pasted image 20230514151255.png",
     "8051 pin diagram.md",
-    "master file.md",
     "8051 introduction.md",
     "resources/Pasted image 20230507201034.png",
     "resources/Pasted image 20230505190702.png",
