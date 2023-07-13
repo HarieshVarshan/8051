@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cdb6b12d0c721668",
+        "id": "860b1efda54ed8b6",
         "type": "tabs",
         "children": [
           {
-            "id": "eb84c79a5b119131",
+            "id": "5d47000ba8e9f6ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "8051 pin diagram.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -28,14 +32,6 @@
         "id": "cf1cdbbf9f6caf94",
         "type": "tabs",
         "children": [
-          {
-            "id": "071f873709a94b79",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
           {
             "id": "e9ecbb95b0398640",
             "type": "leaf",
@@ -69,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "right": {
     "id": "8063f297804adedb",
@@ -90,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "8051 pin diagram.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "8051 pin diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "8051 pin diagram.md"
+              }
             }
           },
           {
@@ -139,7 +139,7 @@
             }
           },
           {
-            "id": "83ccf7b3810865e7",
+            "id": "42c68dc371701a11",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -165,15 +165,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb84c79a5b119131",
+  "active": "5d47000ba8e9f6ab",
   "lastOpenFiles": [
+    "8051 data types.md",
     "8051 introduction.md",
     "8051 pin diagram.md",
     "8051 registers.md",
     "8051 interfacing.md",
     "master file.md",
     "8051 architecture.md",
-    "8051 data types.md",
     "resources/Pasted image 20230514151249.png",
     "resources/Pasted image 20230514151255.png",
     "resources/Pasted image 20230507201034.png",
