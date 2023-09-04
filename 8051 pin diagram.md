@@ -112,3 +112,5 @@
 ## queries
 ---
 - [ ] how does the 8051 $\mu C$ know whether an external ROM or RAM is connected to it by the programmer? are there any special registers the programmer needs to set in order to inform the processor?
+
+
